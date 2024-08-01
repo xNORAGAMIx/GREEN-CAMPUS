@@ -4,9 +4,9 @@ Clone the repository from xNORAGAMIx/GREEN CAMPUS
 
 2. git clone "file url" on terminal(linux) or git bash(windows)
 
-3. go to folder client and run npm init
+3. go to folder client and run npm install
 
-4. go to folder server and run npm init
+4. go to folder server and run npm install
 
 Folder Structure
 
@@ -53,6 +53,10 @@ if you are using terminal
 2. git add . or git add filenames(you worked on)
 3. git commit -m "Commit message"
 4. git push origin main
+
+
+
+P.S - Download any dependencies you need, I have just added the basic ones.
 
 
 
