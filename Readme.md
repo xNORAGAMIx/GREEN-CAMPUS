@@ -22,7 +22,7 @@ config folder in server is for the database connectivity
 
 
 
-update your local repository -> git pull origin main
+update your local repository -> <git pull origin main>
 
 I think it will be better to work on individual branches for now.
 
