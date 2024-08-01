@@ -42,6 +42,9 @@ Once you have completed working on your branch/feature ->
 1. switch to your main branch
 2. merge the feature branches -> git merge <your_branch_name>
 
+Delete the feature branch once you are done with it ->
+git branch -d <your_branch_name>
+
 
 
 Push/commit using VSCODE or terminal
