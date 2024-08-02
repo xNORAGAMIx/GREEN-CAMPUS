@@ -1,25 +1,27 @@
-import Accordian from "../components/Accordian";
+/* eslint-disable react/prop-types */
+import FAQ from "../components/Accordian";
+import Review from "../components/Review";
+import Banner from "../components/Banner";
+import Connect from "../components/Connect";
+import AutoScrollImages from "../components/AutoScrollImages";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
+import YouTubeEmbedComponent from "../components/YouTubeEmbedComponent";
 
-const Home = () => {
+const Home = ({ isOpen }) => {
   return (
-    <div className="bg-green-50 flex flex-col items-center py-8">
-        <h1 className="font-extrabold text-6xl mb-14">Frequently Asked Questions</h1>
-        <Accordian
-          title="What is the Green Community Hub?"
-          content="A vibrant platform for eco-conscious individuals!"
-        />
-
-        <Accordian
-          title="What is the Green Community Hub?"
-          content="A vibrant platform for eco-conscious individuals!"
-        />
-
-        <Accordian
-          title="What is the Green Community Hub?"
-          content="A vibrant platform for eco-conscious individuals!"
-        />
-
-    </div>
+    <>
+      <div className={` ${isOpen ? "blur-sm" : ""}`}>
+        <YouTubeEmbedComponent />
+        <FAQ />
+        <AutoScrollImages />
+        <Review isOpen={isOpen} />
+        <Banner />
+        <Connect />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 };
 
