@@ -14,7 +14,7 @@ const Footer = () => {
         <NavLink className="hover:text-gray-300 hover:underline" to="/">
           Home
         </NavLink>
-        <NavLink className="hover:text-gray-300 hover:underline" to="/events">
+        <NavLink className="hover:text-gray-300 hover:underline" to="/">
           Events
         </NavLink>
         <NavLink className="hover:text-gray-300 hover:underline" to="/">

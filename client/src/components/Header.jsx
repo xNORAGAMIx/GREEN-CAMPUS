@@ -27,13 +27,13 @@ const Header = ({ isOpen, setIsOpen }) => {
               Home
             </NavLink>
             <NavLink
-              to="/map"
+              to="/"
               className="text-gray-800 hover:text-green-600 font-extrabold text-2xl"
             >
               Maps
             </NavLink>
             <NavLink
-              to="/events"
+              to="/"
               className="text-gray-800 hover:text-green-600 font-extrabold text-2xl"
             >
               Event
