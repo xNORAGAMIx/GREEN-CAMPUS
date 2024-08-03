@@ -14,7 +14,7 @@ const HeroSection = () => {
   return (
     <>
       <ShopText />
-      <div className="mt-20 flex justify-between items-center gap-16 p-8 flex-col lg:flex-row">
+      <div id="event" className="mt-20 flex justify-between items-center gap-16 p-8 flex-col lg:flex-row">
         <Image
           src={Image1}
           alt="image"

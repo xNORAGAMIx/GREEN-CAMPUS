@@ -20,24 +20,24 @@ const Header = ({ isOpen, setIsOpen }) => {
             GreenHub
           </div>
           <nav className="hidden md:flex space-x-8">
-            <NavLink
-              to="/"
+            <a
+              href="#home"
               className="text-gray-800 font-extrabold text-2xl hover:text-green-600"
             >
               Home
-            </NavLink>
-            <NavLink
-              to="/"
+            </a>
+            <a
+              href="#maps"
               className="text-gray-800 hover:text-green-600 font-extrabold text-2xl"
             >
               Maps
-            </NavLink>
-            <NavLink
-              to="/"
+            </a>
+            <a
+              href="#event"
               className="text-gray-800 hover:text-green-600 font-extrabold text-2xl"
             >
               Event
-            </NavLink>
+            </a>
           </nav>
           <button className="hidden md:inline-flex font-bold py-4 px-8 bg-green-300 text-green-700 rounded-full text-xl hover:bg-green-200">
             Join Us
@@ -95,24 +95,24 @@ const Header = ({ isOpen, setIsOpen }) => {
                 </button>
               </div>
               <nav className="flex flex-col space-y-6 px-6 mb-6">
-                <NavLink
-                  to="/"
+                <a
+                  href="#home"
                   className="text-gray-800 font-extrabold text-2xl"
                 >
                   Home
-                </NavLink>
-                <NavLink
-                  to="/map"
+                </a>
+                <a
+                  href="#maps"
                   className="text-gray-800 font-extrabold text-2xl"
                 >
                   Maps
-                </NavLink>
-                <NavLink
-                  to="/events"
+                </a>
+                <a
+                  href="#event"
                   className="text-gray-800 font-extrabold text-2xl"
                 >
                   Event
-                </NavLink>
+                </a>
                 <button className="font-bold py-4 px-8 bg-green-400 text-green-700 rounded-full text-xl focus:bg-green-200">
                   Join Us
                 </button>
