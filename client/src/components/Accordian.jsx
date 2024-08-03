@@ -74,7 +74,7 @@ const Accordion = () => {
 const FAQ = () => {
   return (
     <div
-      className={`bg-green-50 flex flex-col items-center py-8 px-4 md:px-8 lg:px-16 `}
+      className={`bg-green-100 flex flex-col items-center py-8 px-4 md:px-8 lg:px-16 `}
     >
       <h1 className="font-extrabold text-2xl md:text-4xl lg:text-6xl mb-6 md:mb-10 lg:mb-14 text-center">
         Frequently Asked Questions

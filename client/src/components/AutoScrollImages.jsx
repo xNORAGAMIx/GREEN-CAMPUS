@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // Array of image sources
 const imageSources = [
@@ -68,7 +68,7 @@ const AutoScrollImages = () => {
               <img
                 src={src}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-contain rounded-3xl"
+                className="w-full h-full object-cover rounded-3xl"
               />
             </div>
           ))}
@@ -77,7 +77,7 @@ const AutoScrollImages = () => {
               <img
                 src={src}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full rounded-3xl object-contain"
+                className="w-full h-full rounded-3xl object-cover"
               />
             </div>
           ))}

@@ -13,7 +13,7 @@ const Header = ({ isOpen, setIsOpen }) => {
   };
 
   return (
-    <header className="sticky top-0 bg-white opacity-80 shadow-2xl rounded-full z-50 mt-4 lg:mx-56 sm:mx-auto">
+    <header className="sticky top-0 bg-white opacity-80 shadow-2xl rounded-full z-50 mt-4 lg:mx-56 mx-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="text-4xl font-extrabold text-green-500 ">
