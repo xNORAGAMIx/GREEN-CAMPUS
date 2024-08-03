@@ -10,3 +10,16 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+@keyframes news-ticker {
+  100% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-news-ticker {
+  animation: news-ticker 20s linear infinite;
+}
